@@ -1,0 +1,188 @@
+
+/* (grijs #899CA0 en donkergroen #1C2B32) */
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: #899CA0;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #1C2B32;
+    font-size: 9px;
+}
+
+h2{
+    font-size: 18px;
+    margin: 18px 0 18px 0;
+    text-align: center;
+}
+
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+
+/*///////////// 3.1 Header /////////////*/
+.header-styling{
+    margin: 40px auto;
+    padding: 0px 0px 180px 0px;
+    width: 1000px;
+    text-align: center;
+    background-image: url('../assets/images/mountains.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+h1{
+    font-size: 65px;
+    padding-top: 10px;
+}
+
+.paragraph-header{
+    font-size: 9px;
+    margin-bottom: 15px;
+}
+
+.input-style{
+    border: 1px solid #1C2B32;
+    background-color: transparent;
+    font-size: 9px;
+    padding: 10px 50px 10px 15px;
+    margin-right: -3px;
+    border-radius: 20px 0px 0px 20px;
+}
+.button-style-check{
+    background-color: #1C2B32;
+    color: white;
+    font-size: 9px;
+    padding: 10px 15px 10px 25px;
+    margin-left: -3px;
+    border: 1px solid #1C2B32;
+    border-radius: 0 20px 20px 0px;
+}
+::placeholder{
+    color: #1C2B32;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+.main-styling{
+    margin: auto;
+    width: 1000px;
+}
+
+.main-section-customers{
+    margin-inline: 200px;
+    position: relative;
+}
+.customer-quote-box{
+    position: relative;
+    padding: 50px 40px 50px 80px;
+    margin: 0px 0px 30px 0px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.10);
+}
+.quote-tag{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.quote-person{
+    margin: 10px 0px 0px 0px;
+    font-style: italic;
+}
+
+.avatar-style{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+/*///////////// 3.3 Support /////////////*/
+.main-section-contact{
+    margin-inline: 200px
+
+}
+.contact-image-style{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+}
+
+.button-style-contact{
+    background-color: #1C2B32;
+    color: white;
+    font-size: 9px;
+    padding: 15px 20px 15px 20px;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #1C2B32;
+    border-radius: 20px 20px 20px 20px;
+}
+
+/*///////////// 3.4 Faq /////////////*/
+.main-section-faq{
+    margin-inline: 200px
+}
+details {
+    margin: 10px 0px 15px 0px;
+}
+
+details:hover{
+    cursor: pointer;
+}
+
+details > p{
+    background-color: #899CA0;
+    padding: 15px;
+    margin: 5px 0px 0px 0;
+    border-radius: 10px;
+}
+
+/*///////////// 3.5 Footer /////////////*/
+.footer-styling{
+    margin: auto;
+    width: 1000px;
+    padding: 20px;
+    background-color: #1C2B32;
+    color: white;
+}
+.paragraph-footer{
+    font-size: 6px;
+    text-align: center;
+}
